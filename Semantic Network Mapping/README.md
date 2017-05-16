@@ -1,8 +1,13 @@
-README
-======================================================================================================================================================================================================
+Implement the following semantic network in Prolog:
+
+---------------------------------------------------------
+
+[![Semantic Network](https://github.com/citizen-kane/Artificial-Intelligence-Projects/blob/master/Semantic%20Network%20Mapping/SemanticNetwork.png)](#features)
 
 Compilation:
-============
+
+------------
+
 1. Move file assign.pl from Assign2_KrishnaAgarwala.zip to the vcl.
 2. Run "pl" from there
 3. If inside the same folder, compile the file by the command:
@@ -11,7 +16,8 @@ Compilation:
 
 
 Function:
-=========
+
+---------
 1. A ternary function by the name "value" has been defined.
 
 	value (X, Y, Z);
@@ -28,4 +34,3 @@ Function:
 			- sugar
 			- candy
 			- snickers
-======================================================================================================================================================================================================
