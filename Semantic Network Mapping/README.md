@@ -4,16 +4,7 @@ Implement the following semantic network in Prolog:
 
 [![Semantic Network](https://github.com/citizen-kane/Artificial-Intelligence-Projects/blob/master/Semantic%20Network%20Mapping/SemanticNetwork.png)](#features)
 
-Compilation:
-
-------------
-
-1. Move file assign.pl from Assign2_KrishnaAgarwala.zip to the vcl.
-2. Run "pl" from there
-3. If inside the same folder, compile the file by the command:
-
-	['assign.pl'].
-
+---------------------------------------------------------
 
 Function:
 
