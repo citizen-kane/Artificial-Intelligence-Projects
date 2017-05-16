@@ -57,14 +57,3 @@ S=do(climbdown(), do(grasp(banana2),do(climbup(), do(push(posb), do(go(posd), in
 
 --------------------------------------------------------------------------
 
-Compilation:
-
---------------------------------------------------------------------------
-
-1. Move file assign.pl from Assign2_KrishnaAgarwala.zip to the vcl.
-2. Run "pl" from there
-3. If inside the same folder, compile the file by the command:
-
-	['assign.pl'].
-
---------------------------------------------------------------------------
