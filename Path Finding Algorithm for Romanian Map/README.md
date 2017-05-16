@@ -1,5 +1,7 @@
 Find and Compare results of DFS, BFS and A* pathfinding algorithms on the map of Romania.
+
 -----------------------------------------------------------------------------------------
+
 Using files neighbours.txt and locations.txt for node connection and node coordinates respectively to create a Graph of the Romania road network and analyse how different Path-Finding algorithms work on them.
 
 1. neighbours.txt
@@ -12,6 +14,7 @@ Then it will have the <source city> <destination city> <distance>
 This file will have the latitude longitude of each city in the following format:
 <city> <latitude> <longitude>
 This file will NOT have the number of cities.
+
 -----------------------------------------------------------------------------------------
 
 Compile and Execution:
@@ -30,4 +33,5 @@ Please execute the code using:
 
 example:
 ./a DFS urziceni mehadia
+
 -----------------------------------------------------------------------------------------
