@@ -2,10 +2,13 @@ Situation Calculus
 
 --------------------------------------------------------------------------
 
-The monkey-and-bananas problem is faced by a monkey in a laboratory with some bananas hanging out of reach from the ceiling. A box is available that will enable the monkey to reach the bananas if he climbs on it. 
+The monkey-and-bananas problem is faced by a monkey in a laboratory with some bananas hanging out of reach from the ceiling. A box is available that will enable the monkey to reach the bananas if he climbs on it.
+
 Initially, the monkey is at posa, banana1 is at posa, banana2 is at posb, banana3 is at posc, and the box is at posd. 
+
 The monkey and box have height low, but if the monkey climbs onto the box he will have height high, the same as the bananas.
-The actions available to the monkey include GO from one place to another, PUSH the box from one place to another, CLIMBUP onto or CLIMBDOWN from the box, and GRASP or UNGRASP a banana. The result of a GRASP is that the monkey HOLDS the object if the monkey and object are in the same place at the same height, the result of an UNGRASP is that the monkey does not HOLD the object any more if he currently HOLDS that object, and the object will be left at the current place and the current height of the monkey. The monkey can HOLDS multiple bananas at the same time, but he cannot PUSH box if he holds any banana.
+
+The actions available to the monkey include <i>GO</i> from one place to another, <i>PUSH</i> the box from one place to another, <i>CLIMBUP</i> onto or <i>CLIMBDOWN</i> from the box, and <i>GRASP</i> or <i>UNGRASP</i> a banana. The result of a <i>GRASP</i> is that the monkey <i>HOLDS</i> the object if the monkey and object are in the same place at the same height. The result of an <i>UNGRASP</i> is that the monkey does not <i>HOLDS</i> the object any more if he currently <i>HOLDS</i> that object, and the object will be left at the current place and the current height of the monkey. The monkey can <i>HOLDS</i> multiple bananas at the same time, but he cannot <i>PUSH</i> box if he holds any banana.
 
 The initial states are given as:
 
@@ -22,9 +25,9 @@ at(monkey, posa, low, init).
 holds ([] , init ).
 
 
-Fluent <i>at(O, P, H, S)<\i> means an object <i>O<\i> locates at a position <i>P<\i> having height <i>H<\i> at situation <i>S<\i>.
+Fluent <i>at(O, P, H, S)</i> means an object <i>O</i> locates at a position <i>P</i> having height <i>H</i> at situation <i>S</i>.
 
-Fluent <i>holds(L,S)<\i> means the monkey holds and only holds items in list <i>L<\i> at situation <i>S<\i>. 
+Fluent <i>holds(L,S)</i> means the monkey holds and only holds items in list <i>L</i> at situation <i>S</i>. 
 
 Actions are defined as:
 
@@ -42,7 +45,7 @@ ungrasp(Obj)
 
 The initial situation is init. 
 
-<i>do(A,S)<\i> represents the new situation after applying an action <i>A<\i> on situation <i>S<\i>. 
+<i>do(A,S)</i> represents the new situation after applying an action <i>A</i> on situation <i>S</i>. 
 
 The program should be able to output a plan for any goal, if one exists. The plan should be a situation. The goal is one or more comma-separated fluents with a variable as situation. 
 
